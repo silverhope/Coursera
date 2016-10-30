@@ -26,6 +26,11 @@ h2 {
 	font-weight: bold;
 }
 
+#header-nav span {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
 .navbar-header a:hover, .navbar-header a:focus {
   text-decoration: none;
   color: white;
