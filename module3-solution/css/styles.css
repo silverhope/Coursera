@@ -5,16 +5,16 @@ body {
   font-family: 'Taviraj', sans-serif;
 }
 
-h1 {
-	font-size: 2em;
+h2 {
+	font-size: 2.2em;
 }
 
-h2 {
-	font-size: 1.2em;
+h3 {
+	font-size: 1.4em;
 }
 
 #header-nav {
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 	background-color: #b3daff;
 	border:0;
 	border-radius: 0;
@@ -36,6 +36,28 @@ h2 {
   color: white;
 }
 
+.navbar-brand {
+  padding-top: 15px;
+  height:62px;
+}
+
+.navbar-brand a{
+	margin:0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  float:left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
 #nav-list {
 	margin-top:0;
 	margin-bottom: 0;
@@ -44,11 +66,10 @@ h2 {
 #nav-list li{
 	border: 1px solid white;
 	margin:0;
-	width: 
+
 }
 
 #nav-list a {
-	text-align: center;
 	color: #2d5986;
 	margin: 1px solid white;
 	margin-width: 1vw;
@@ -62,8 +83,15 @@ h2 {
 	border: 1px solid #2d5986;
 }
 
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+  height: 42px;
+}
+
 #dropdown-menu {
 	padding-left:0;
+	overflow-y: hidden;
 }
 
 .container .row div {
