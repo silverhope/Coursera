@@ -1,0 +1,100 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #2d5986;
+  font-family: 'Taviraj', sans-serif;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+#header-nav {
+	padding-top: 10px;
+	background-color: #b3daff;
+	border:0;
+	border-radius: 0;
+	width:100%;
+}
+
+#header-nav a {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-list {
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+#nav-list li{
+	border: 1px solid white;
+	margin:0;
+	width: 
+}
+
+#nav-list a {
+	text-align: center;
+	color: #2d5986;
+	margin: 1px solid white;
+	margin-width: 1vw;
+}
+
+#nav-list a:hover, #nav-list a:focus {
+	background:white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #2d5986;
+}
+
+#dropdown-menu {
+	padding-left:0;
+}
+
+.container .row div {
+	border: 1px solid white;
+	height:1000px;
+	background-color: #339cff;
+	margin-bottom: 40px;
+	padding:5px;
+}
+
+.container .row p {
+	text-align: justify;
+	padding: 5px;
+}
+
+
+
+/* ----- Desktop view (>=992 px)----- */
+@media (min-width: 992px) {
+
+}
+
+/* ----- Tablet view (>= 768)----- */
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* ----- Mobile view ----- */
+@media (max-width: 767px) {
+	#header-nav a {
+		margin-left: 15px;
+	}
+
+	#dropdown-menu {
+		background-color: #80c1ff;
+	}
+
+	#main-content.container{
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 20px;
+	}
+}
