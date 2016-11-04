@@ -75,7 +75,7 @@ h3 {
 	margin-width: 1vw;
 }
 
-#nav-list a:hover, #nav-list a:focus {
+#nav-list a:hover, {
 	background:white;
 }
 
